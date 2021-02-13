@@ -1,0 +1,54 @@
+body { font-family: "Roboto";
+       width:900px;
+       margin:auto; 
+       
+}
+/**
+header{
+    height:600px;
+}
+**/
+/**
+#logo{
+    position:absolute;
+}**/
+nav{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+ nav ul{
+    display: flex;
+   list-style-type: none;
+   justify-content:flex-end ;
+   
+    
+}
+nav ul li {
+    padding-left: 20px;
+}
+
+article{
+    height:300px;
+    background-image: url("Images/background_image.jpg");
+    /**background-size: contain;
+    background-color: aqua;**/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+article h3{
+    color:white;
+}
+#logo{
+    
+    /**display: block;**/
+    width: 200px;
+    height: 65px;
+  /**margin-left: auto;
+  margin-right: auto;**/
+  /**margin-bottom: auto;**/
+  
+}
