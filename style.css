@@ -11,8 +11,9 @@ nav{
 
 .menu__header{
     display: flex;
-   /**list-style-type: none;**/
-   justify-content: flex-end ;   
+   
+   justify-content: flex-end ;
+     
 }
 
 .menu__header h5 {
