@@ -82,7 +82,10 @@ aside .prestations img{
 footer{
     background-color:      #610fb2   ;
 
-height: 400px;
+height: 300px;
+display:flex;
+flex-direction: column;
+justify-content: space-between;
 }
 footer h5{
     text-align: center;
@@ -90,15 +93,38 @@ footer h5{
     padding-top:10px;
 }
 .fab{
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     padding:0px 20px 0px 20px;
-    margin-bottom: 10px;
+   
     
     
 
 }
-div{
+.reseaux{
     display: flex;
     justify-content:center;
+    margin-bottom: auto;
 }
+.menu__footer{
+    display: flex;
+    justify-content: space-around;
+    padding: auto;
+    margin-top:25px;
+    
+    color: white;
+}
+.liens{
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+    
+    
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
