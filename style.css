@@ -72,3 +72,33 @@ aside .prestations img{
     margin: auto;
 
 }
+.commentaires{
+    width:450px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+footer{
+    background-color:      #610fb2   ;
+
+height: 400px;
+}
+footer h5{
+    text-align: center;
+    color: white;
+    padding-top:10px;
+}
+.fab{
+    font-size: 40px;
+    color: white;
+    padding:0px 20px 0px 20px;
+    margin-bottom: 10px;
+    
+    
+
+}
+div{
+    display: flex;
+    justify-content:center;
+}
