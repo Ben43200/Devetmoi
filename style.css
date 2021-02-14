@@ -1,54 +1,74 @@
 body { font-family: "Roboto";
        width:900px;
-       margin:auto; 
-       
+       margin:auto;    
 }
-/**
-header{
-    height:600px;
-}
-**/
-/**
-#logo{
-    position:absolute;
-}**/
+
 nav{
     display: flex;
    justify-content: space-between;
     align-items: center;
 }
+
  nav ul{
     display: flex;
    list-style-type: none;
-   justify-content:flex-end ;
-   
-    
+   justify-content: flex-end ;   
 }
+
 nav ul li {
     padding-left: 20px;
 }
 
-article{
+.fond{
     height:300px;
     background-image: url("Images/background_image.jpg");
-    /**background-size: contain;
-    background-color: aqua;**/
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
 }
-article h3{
-    color:white;
+.fond  h3{
+    color: white;
 }
+
 #logo{
-    
-    /**display: block;**/
     width: 200px;
     height: 65px;
-  /**margin-left: auto;
-  margin-right: auto;**/
-  /**margin-bottom: auto;**/
-  
+}
+.annonce{
+    text-align: center;
+    font-size: 1.2em;
+ 
+    width:675px;
+    word-wrap: break-word;
+    padding-top: 50px;
+}
+section{
+    display: flex;
+   justify-content:center;
+   
+}
+h6{
+    text-align: center;
+}
+aside{
+    display: flex;
+     justify-content:center;
+   
+}
+.definitions{
+    font-size: 0.8em;
+    position:relative;
+width:270px;
+text-align: center;
+
+/**z-index:10;**/
+}
+aside .prestations img{
+    display: flex;
+    /**flex-direction: column;**/
+    justify-content: space-around;
+    margin: auto;
+
 }
